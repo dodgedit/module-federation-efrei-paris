@@ -4,7 +4,8 @@
   "description": "Create React app Running with rsbuild",
   "workspaces": [
     "./host",
-    "./remote"
+    "./remote",
+    "./sharedComponent"
   ],
   "scripts": {
     "start": "pnpm --filter cra_* start",
