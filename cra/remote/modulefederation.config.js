@@ -1,3 +1,4 @@
+const ModuleFederationPlugin = require('webpack').container.ModuleFederationPlugin;
 const { dependencies } = require('./package.json');
 
 module.exports = {
