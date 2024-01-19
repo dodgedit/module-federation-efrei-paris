@@ -1,5 +1,6 @@
+import react from "react";
 
- function NewUserForm(){
+function NewUserForm() {
     return (
         <div>
             <form>
@@ -9,7 +10,7 @@
                 </label>
                 <label>
                     Email:
-                    <input type="text" name="email" />
+                    <input type="text" name="email" />²
                 </label>
                 <label>
                     Password:
@@ -18,7 +19,7 @@
                 <input type="submit" value="Submit" />
             </form>
         </div>
-    )
+    );
 }
 
 export default NewUserForm;
