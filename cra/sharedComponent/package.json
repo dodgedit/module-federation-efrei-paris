@@ -25,6 +25,10 @@
   "devDependencies": {
     "@rsbuild/core": "^0.3.2",
     "@rsbuild/plugin-react": "^0.3.2",
-    "@rspack/core": "^0.5.0"
+    "@rspack/core": "^0.5.0",
+    "@types/react": "18.0.38",
+    "@types/react-dom": "18.2.18",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3"
   }
 }
