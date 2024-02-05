@@ -25,8 +25,8 @@ Run `pnpm run start`. This will build and serve both `host` and `remote` on port
 Also it will build all apps which respects the global package.json start scripts   "start": "pnpm --filter cra_* start" , basically all app which starts by 'cra_'
 
 
-- [localhost:3001](http://localhost:3000/) (HOST)
-- [localhost:3002](http://localhost:3002/) (STANDALONE REMOTE)
+- [localhost:3001](http://localhost:3000/) (HOST DASHBOARD ADMIN)
+- [localhost:3002](http://localhost:3002/) (STANDALONE REMOTE -  DASHBOARD CLIENT)
 
 # Running Cypress E2E Tests
 
