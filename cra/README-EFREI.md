@@ -45,7 +45,7 @@ To build app and run test in headless mode, run `yarn e2e:ci`. It will build app
 
 * Develop a shared library of React components.
 * Ensure these components are reusable and modular.
-
+* Create a Footer and a header in the shared component app. Use it in both host and remote Landing page (app.js)
 2) Remote App Development (Client's View)
 
 * Develop a landing page using components from the Component App.
